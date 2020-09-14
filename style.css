@@ -1,0 +1,74 @@
+body{
+    width: 100%;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr;
+    }
+}
+h2{
+    font-size: 24px;
+}
+#small{
+    overflow: hidden;
+    /* display: initial; */
+}
+#medium{
+    overflow: hidden;
+    /* display: none; */
+}
+#large{
+    overflow: hidden;
+    /* display: none; */
+}
+
+@media only screen and (min-width: 500px) {
+    body {
+      background-color: green;
+      font-size: 16px;
+      display: grid;
+      grid-template: 
+      "a a b" 1fr
+      "c c c" 1fr / 1fr 1fr 1fr;
+    }
+    h2{
+        font-size: 32px;
+    }
+    #small{
+        grid-area: a;
+        /* display: none; */
+    }
+    #medium{
+        grid-area: b;
+        /* display: initial; */
+    }
+    #large{
+        grid-area: c;
+        /* display: none; */
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    body {
+      background-color: blue;
+      font-size: 24px;
+      display: grid;
+      grid-template:
+      "a b c" 1fr / 1fr 1fr 1fr;
+    }
+    h2{
+        font-size: 48px;
+    }
+    #small{
+        grid-area: a;
+        /* display: none; */
+    }
+    #medium{
+        grid-area: b;
+        /* display: none; */
+    }
+    #large{
+        grid-area: c;
+        /* display: initial; */
+    }
+  }
