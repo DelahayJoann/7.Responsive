@@ -383,6 +383,9 @@ footer h1
     }
 } 
 @media only screen and (min-width: 950px) {
+    body{
+        font-size: larger;
+    }
     #bloc_page{
         width: 900px;
         margin: auto;
