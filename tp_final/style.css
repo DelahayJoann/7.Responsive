@@ -314,7 +314,6 @@ footer h1
     {
         font-size: medium;
         width: 95%;
-        margin: auto;
     }
     #bloc_page
     {
@@ -384,9 +383,6 @@ footer h1
     }
 } 
 @media only screen and (min-width: 950px) {
-    body{
-        margin: auto;
-    }
     #bloc_page{
         width: 900px;
         margin: auto;
