@@ -309,7 +309,7 @@ footer h1
     color: #760001;
 }
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 600px), (orientation: landscape) {
     body
     {
         font-size: medium;
