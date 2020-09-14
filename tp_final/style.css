@@ -27,6 +27,10 @@
 
 /* Eléments principaux de la page */
 
+*{
+    box-sizing: border-box;
+}
+
 body
 {
     background: url('images/fond_jaune.png');
